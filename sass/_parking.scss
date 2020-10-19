@@ -1,0 +1,70 @@
+.main7 {
+    grid-area: body2;
+    width: 100%;
+
+    .park {
+        color: $purpura;
+        font-size: 1.2em;
+        font-family: $titleFontBig;
+        margin-top: 1em;
+    }
+
+    .feat {
+        font-family: $textFont;
+
+        p {
+            font-size: 1.7em;
+            margin-bottom: 1em;
+            margin-top: 1em;
+            color: $verde;
+
+        }
+
+        ul {
+            list-style-type: none;
+
+            color: $purpura;
+
+            li {
+                margin-bottom: 0.5em;
+                font-size: 1.2;
+            }
+        }
+
+    }
+
+
+    .picPark {
+        width: 50%;
+        height: 30%;
+        margin-top: 1em;
+    }
+
+    #map {
+        height: 300px;
+        width: 300px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        float: left;
+    }
+
+    a {
+        text-decoration: none;
+
+        .toPage {
+
+            background-color: #b261c8;
+            color: #f8e040;
+            font-size: 1.7em;
+            border-radius: 0.3em;
+            padding: 0.2em;
+            transition: all 0.7s ease-in-out;
+
+
+            &:hover {
+                cursor: pointer;
+                background-color: #b77dc7;
+            }
+        }
+    }
+}

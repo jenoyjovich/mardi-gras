@@ -1,0 +1,54 @@
+.mainSpon {
+    grid-area: body2;
+    width: 100%;
+
+
+    .container {
+        text-align: center;
+        margin-top: 5em;
+
+
+        .img-cont {
+            display: inline-block;
+            margin: 1.5em;
+            position: relative;
+            cursor: pointer;
+            text-decoration: none;
+
+            &:hover {
+                img {
+                    filter: blur(4px);
+                    transform: scale(1.1);
+                }
+
+                .picTxt {
+                    opacity: 5;
+
+                }
+            }
+
+            .picTxt {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                color: $blanco;
+                text-shadow: 2px 2px 4px black;
+                font-family: $titleFontBig;
+                font-size: 2em;
+                transform: translate(-50%, -50%);
+                opacity: 0;
+                transition: all 0.7s ease-in-out;
+            }
+
+            img {
+
+                width: 200px;
+                height: 200px;
+                border-radius: 15em;
+                transition: all 0.7s ease-in-out;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.main5 {
+    grid-area: body2;
+    width: 100%;
+
+    margin-bottom: 1em;
+
+    .container {
+
+        img {
+            width: 100%;
+        }
+
+        .sher {
+            margin-top: 1em;
+            margin-bottom: 1em;
+
+            h2 {
+                text-align: center;
+                color: $purpura;
+                font-size: 2.2em;
+                text-decoration: underline;
+                font-family: $titleFontBig;
+            }
+        }
+
+        .pSher {
+            margin-bottom: 1em;
+            background-color: #faf5d3;
+            padding: 1em;
+            border-radius: 1em;
+
+            p {
+
+
+                color: black;
+                font-size: 1em;
+                text-align: justify
+            }
+
+
+        }
+
+        a {
+            text-decoration: none;
+
+            .toPage {
+
+                background-color: #b261c8;
+                color: #f8e040;
+                font-size: 1.7em;
+                border-radius: 0.3em;
+                padding: 0.2em;
+                transition: all 0.7s ease-in-out;
+
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #b77dc7;
+                }
+            }
+        }
+    }
+}

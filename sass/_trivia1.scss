@@ -1,0 +1,82 @@
+.mainTrivia {
+    grid-area: body2;
+
+    .container {
+        #quiz {
+
+
+
+            .wrapper {
+                display: flex;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 1em;
+                gap: 1em;
+
+                #check {
+                    padding: 0.2em;
+                    font-size: 2em;
+                    background-color: $purpura;
+                    color: $verde;
+                    font-family: $titleFontBig;
+                    border-radius: 2em;
+                    box-shadow: 1px 1px 1px black;
+                }
+
+
+
+                #restart {
+                    border-radius: 2em;
+                    padding: 0.2em;
+                    background-color: $purpura;
+                    font-family: $titleFontBig;
+                    color: $verde;
+                    font-size: 2em;
+                    box-shadow: 1px 1px 1px black;
+                }
+            }
+
+            #result {
+
+                width: 100%;
+                text-align: center;
+                border-radius: 1em;
+                background-color: $amarillo;
+                font-size: 1.5em;
+                color: $purpura;
+                font-family: $titleFontBig;
+            }
+
+
+            .answRight {
+                background-color: green;
+            }
+
+            .answWrong {
+                background-color: red;
+            }
+
+            .questionWrap {
+                font-size: 1.2em;
+                color: $amarillo;
+                text-shadow: 1px 1px 1px black;
+                background-color: $purpura;
+                padding: 2em;
+                margin: 2em 0 2em 0;
+                border-radius: 1em;
+
+
+                .question {
+                    font-weight: bold;
+                    font-family: $titleFont;
+                    font-size: 1.2em;
+                    color: $verde;
+                    text-shadow: 1px 1px 1px black;
+                }
+
+
+            }
+        }
+    }
+}
