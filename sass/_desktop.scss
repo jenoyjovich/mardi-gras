@@ -1,127 +1,113 @@
 @include desktopAll {
+  .strip {
+    display: none;
+  }
+  .main7 {
+    grid-area: 3/1/3/4;
+    width: 100%;
 
-    .main7 {
-        grid-area: 3/1/3/4;
-        width: 100%;
+    .feat {
+      float: right;
+    }
+  }
 
+  .main2 {
+    grid-area: 3/1/3/4;
+    width: 100%;
+  }
 
-        .feat {
-            float: right;
+  .main3 {
+    grid-area: 3/1/3/4;
+    width: 100%;
+
+    .contactForm {
+      .forme {
+        display: table;
+
+        #submit_btn {
+          display: flex;
         }
 
-    }
+        .tableRow {
+          display: table-row;
 
-    .main2 {
-        grid-area: 3/1/3/4;
-        width: 100%;
-    }
+          label {
+            display: table-cell;
+            padding-right: 1em;
+          }
 
-    .main3 {
-        grid-area: 3/1/3/4;
-        width: 100%;
+          textarea {
+            display: table-cell;
+            margin: 0.3em;
+          }
 
+          input {
+            display: table-cell;
 
-        .contactForm {
-
-            .forme {
-                display: table;
-
-                #submit_btn {
-                    display: flex;
-                }
-
-                .tableRow {
-                    display: table-row;
-
-                    label {
-                        display: table-cell;
-                        padding-right: 1em;
-
-                    }
-
-                    textarea {
-                        display: table-cell;
-                        margin: 0.3em;
-
-
-                    }
-
-                    input {
-                        display: table-cell;
-
-                        &::placeholder {
-                            color: white;
-                        }
-                    }
-                }
+            &::placeholder {
+              color: white;
             }
+          }
         }
+      }
     }
+  }
 
-    .main4 {
-        grid-area: 3/1/3/4;
-        width: 100%;
+  .main4 {
+    grid-area: 3/1/3/4;
+    width: 100%;
+  }
 
+  .main6 {
+    grid-area: 3/1/3/4;
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 50%;
     }
+  }
 
-    .main6 {
-        grid-area: 3/1/3/4;
-        width: 100%;
+  .main8 {
+    grid-area: 3/1/3/4;
+    width: 100%;
+    height: 100vh;
 
+    .container-fluid {
+      text-align: center;
 
-        img {
+      .lightbox {
+        cursor: pointer;
+        display: inline-block;
+        width: 15%;
+        margin-left: 1.5em;
+      }
+
+      .popupWrapper {
+        .popup {
+          width: 60%;
+          text-align: center;
+          max-width: 100%;
+          margin: 5% auto;
+          position: relative;
+
+          img {
             width: 100%;
-            height: 50%;
+          }
         }
-
+      }
     }
+  }
 
-    .main8 {
-        grid-area: 3/1/3/4;
-        width: 100%;
-        height: 100vh;
+  .main5 {
+    grid-area: 3/1/3/4;
+    width: 100%;
+    height: 100vh;
+  }
 
-        .container-fluid {
-            text-align: center;
-
-            .lightbox {
-                cursor: pointer;
-                display: inline-block;
-                width: 15%;
-                margin-left: 1.5em;
-            }
-
-            .popupWrapper {
-
-                .popup {
-                    width: 60%;
-                    text-align: center;
-                    max-width: 100%;
-                    margin: 5% auto;
-                    position: relative;
-
-                    img {
-                        width: 100%;
-                    }
-                }
-            }
-        }
-    }
-
-    .main5 {
-        grid-area: 3/1/3/4;
-        width: 100%;
-        height: 100vh;
-
-    }
-
-    .mainSpon {
-        grid-area: 3/1/3/4;
-        width: 100%;
-        height: 100vh;
-
-    }
-
-
-
+  .mainSpon {
+    grid-area: 3/1/3/4;
+    width: 100%;
+    height: 100vh;
+  }
 }
